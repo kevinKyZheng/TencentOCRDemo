@@ -5,7 +5,11 @@
 //  Created by ios on 2018/10/19.
 //  Copyright © 2018年 KY. All rights reserved.
 //
-
+/********************************************************
+ 注意事项
+1. app_id和key要换成自己的
+2. 文中没有实现md5加密,请自行实现md5加密,然后在计算sign值部分替换
+ ******************************************************/
 import UIKit
 
 class ViewController: UIViewController {
