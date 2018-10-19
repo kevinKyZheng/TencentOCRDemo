@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81D4ED2F2179D3FA004BD74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4ED2E2179D3FA004BD74B /* AppDelegate.swift */; };
+		81D4ED312179D3FA004BD74B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4ED302179D3FA004BD74B /* ViewController.swift */; };
+		81D4ED342179D3FA004BD74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D4ED322179D3FA004BD74B /* Main.storyboard */; };
+		81D4ED362179D3FB004BD74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D4ED352179D3FB004BD74B /* Assets.xcassets */; };
+		81D4ED392179D3FB004BD74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D4ED372179D3FB004BD74B /* LaunchScreen.storyboard */; };
+		81D4ED442179D3FC004BD74B /* tencentOCRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4ED432179D3FC004BD74B /* tencentOCRTests.swift */; };
+		81D4ED4F2179D3FC004BD74B /* tencentOCRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4ED4E2179D3FC004BD74B /* tencentOCRUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81D4ED402179D3FC004BD74B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81D4ED232179D3FA004BD74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D4ED2A2179D3FA004BD74B;
+			remoteInfo = tencentOCR;
+		};
+		81D4ED4B2179D3FC004BD74B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81D4ED232179D3FA004BD74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D4ED2A2179D3FA004BD74B;
+			remoteInfo = tencentOCR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81D4ED2B2179D3FA004BD74B /* tencentOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tencentOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D4ED2E2179D3FA004BD74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81D4ED302179D3FA004BD74B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81D4ED332179D3FA004BD74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81D4ED352179D3FB004BD74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81D4ED382179D3FB004BD74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81D4ED3A2179D3FB004BD74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D4ED3F2179D3FC004BD74B /* tencentOCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tencentOCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D4ED432179D3FC004BD74B /* tencentOCRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tencentOCRTests.swift; sourceTree = "<group>"; };
+		81D4ED452179D3FC004BD74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D4ED4A2179D3FC004BD74B /* tencentOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tencentOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D4ED4E2179D3FC004BD74B /* tencentOCRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tencentOCRUITests.swift; sourceTree = "<group>"; };
+		81D4ED502179D3FC004BD74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D4ED282179D3FA004BD74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D4ED3C2179D3FC004BD74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D4ED472179D3FC004BD74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81D4ED222179D3FA004BD74B = {
+			isa = PBXGroup;
+			children = (
+				81D4ED2D2179D3FA004BD74B /* tencentOCR */,
+				81D4ED422179D3FC004BD74B /* tencentOCRTests */,
+				81D4ED4D2179D3FC004BD74B /* tencentOCRUITests */,
+				81D4ED2C2179D3FA004BD74B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81D4ED2C2179D3FA004BD74B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D4ED2B2179D3FA004BD74B /* tencentOCR.app */,
+				81D4ED3F2179D3FC004BD74B /* tencentOCRTests.xctest */,
+				81D4ED4A2179D3FC004BD74B /* tencentOCRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81D4ED2D2179D3FA004BD74B /* tencentOCR */ = {
+			isa = PBXGroup;
+			children = (
+				81D4ED2E2179D3FA004BD74B /* AppDelegate.swift */,
+				81D4ED302179D3FA004BD74B /* ViewController.swift */,
+				81D4ED322179D3FA004BD74B /* Main.storyboard */,
+				81D4ED352179D3FB004BD74B /* Assets.xcassets */,
+				81D4ED372179D3FB004BD74B /* LaunchScreen.storyboard */,
+				81D4ED3A2179D3FB004BD74B /* Info.plist */,
+			);
+			path = tencentOCR;
+			sourceTree = "<group>";
+		};
+		81D4ED422179D3FC004BD74B /* tencentOCRTests */ = {
+			isa = PBXGroup;
+			children = (
+				81D4ED432179D3FC004BD74B /* tencentOCRTests.swift */,
+				81D4ED452179D3FC004BD74B /* Info.plist */,
+			);
+			path = tencentOCRTests;
+			sourceTree = "<group>";
+		};
+		81D4ED4D2179D3FC004BD74B /* tencentOCRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81D4ED4E2179D3FC004BD74B /* tencentOCRUITests.swift */,
+				81D4ED502179D3FC004BD74B /* Info.plist */,
+			);
+			path = tencentOCRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D4ED2A2179D3FA004BD74B /* tencentOCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D4ED532179D3FC004BD74B /* Build configuration list for PBXNativeTarget "tencentOCR" */;
+			buildPhases = (
+				81D4ED272179D3FA004BD74B /* Sources */,
+				81D4ED282179D3FA004BD74B /* Frameworks */,
+				81D4ED292179D3FA004BD74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tencentOCR;
+			productName = tencentOCR;
+			productReference = 81D4ED2B2179D3FA004BD74B /* tencentOCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81D4ED3E2179D3FC004BD74B /* tencentOCRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D4ED562179D3FC004BD74B /* Build configuration list for PBXNativeTarget "tencentOCRTests" */;
+			buildPhases = (
+				81D4ED3B2179D3FC004BD74B /* Sources */,
+				81D4ED3C2179D3FC004BD74B /* Frameworks */,
+				81D4ED3D2179D3FC004BD74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D4ED412179D3FC004BD74B /* PBXTargetDependency */,
+			);
+			name = tencentOCRTests;
+			productName = tencentOCRTests;
+			productReference = 81D4ED3F2179D3FC004BD74B /* tencentOCRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81D4ED492179D3FC004BD74B /* tencentOCRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D4ED592179D3FC004BD74B /* Build configuration list for PBXNativeTarget "tencentOCRUITests" */;
+			buildPhases = (
+				81D4ED462179D3FC004BD74B /* Sources */,
+				81D4ED472179D3FC004BD74B /* Frameworks */,
+				81D4ED482179D3FC004BD74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D4ED4C2179D3FC004BD74B /* PBXTargetDependency */,
+			);
+			name = tencentOCRUITests;
+			productName = tencentOCRUITests;
+			productReference = 81D4ED4A2179D3FC004BD74B /* tencentOCRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81D4ED232179D3FA004BD74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = KY;
+				TargetAttributes = {
+					81D4ED2A2179D3FA004BD74B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					81D4ED3E2179D3FC004BD74B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 81D4ED2A2179D3FA004BD74B;
+					};
+					81D4ED492179D3FC004BD74B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 81D4ED2A2179D3FA004BD74B;
+					};
+				};
+			};
+			buildConfigurationList = 81D4ED262179D3FA004BD74B /* Build configuration list for PBXProject "tencentOCR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81D4ED222179D3FA004BD74B;
+			productRefGroup = 81D4ED2C2179D3FA004BD74B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81D4ED2A2179D3FA004BD74B /* tencentOCR */,
+				81D4ED3E2179D3FC004BD74B /* tencentOCRTests */,
+				81D4ED492179D3FC004BD74B /* tencentOCRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D4ED292179D3FA004BD74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4ED392179D3FB004BD74B /* LaunchScreen.storyboard in Resources */,
+				81D4ED362179D3FB004BD74B /* Assets.xcassets in Resources */,
+				81D4ED342179D3FA004BD74B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D4ED3D2179D3FC004BD74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D4ED482179D3FC004BD74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D4ED272179D3FA004BD74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4ED312179D3FA004BD74B /* ViewController.swift in Sources */,
+				81D4ED2F2179D3FA004BD74B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D4ED3B2179D3FC004BD74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4ED442179D3FC004BD74B /* tencentOCRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D4ED462179D3FC004BD74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D4ED4F2179D3FC004BD74B /* tencentOCRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81D4ED412179D3FC004BD74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D4ED2A2179D3FA004BD74B /* tencentOCR */;
+			targetProxy = 81D4ED402179D3FC004BD74B /* PBXContainerItemProxy */;
+		};
+		81D4ED4C2179D3FC004BD74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D4ED2A2179D3FA004BD74B /* tencentOCR */;
+			targetProxy = 81D4ED4B2179D3FC004BD74B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81D4ED322179D3FA004BD74B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D4ED332179D3FA004BD74B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81D4ED372179D3FB004BD74B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D4ED382179D3FB004BD74B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D4ED512179D3FC004BD74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81D4ED522179D3FC004BD74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81D4ED542179D3FC004BD74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXW2N3HK6S;
+				INFOPLIST_FILE = tencentOCR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KY.tencentOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81D4ED552179D3FC004BD74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXW2N3HK6S;
+				INFOPLIST_FILE = tencentOCR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KY.tencentOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81D4ED572179D3FC004BD74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXW2N3HK6S;
+				INFOPLIST_FILE = tencentOCRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KY.tencentOCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tencentOCR.app/tencentOCR";
+			};
+			name = Debug;
+		};
+		81D4ED582179D3FC004BD74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXW2N3HK6S;
+				INFOPLIST_FILE = tencentOCRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KY.tencentOCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tencentOCR.app/tencentOCR";
+			};
+			name = Release;
+		};
+		81D4ED5A2179D3FC004BD74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXW2N3HK6S;
+				INFOPLIST_FILE = tencentOCRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KY.tencentOCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tencentOCR;
+			};
+			name = Debug;
+		};
+		81D4ED5B2179D3FC004BD74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXW2N3HK6S;
+				INFOPLIST_FILE = tencentOCRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KY.tencentOCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tencentOCR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D4ED262179D3FA004BD74B /* Build configuration list for PBXProject "tencentOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D4ED512179D3FC004BD74B /* Debug */,
+				81D4ED522179D3FC004BD74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D4ED532179D3FC004BD74B /* Build configuration list for PBXNativeTarget "tencentOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D4ED542179D3FC004BD74B /* Debug */,
+				81D4ED552179D3FC004BD74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D4ED562179D3FC004BD74B /* Build configuration list for PBXNativeTarget "tencentOCRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D4ED572179D3FC004BD74B /* Debug */,
+				81D4ED582179D3FC004BD74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D4ED592179D3FC004BD74B /* Build configuration list for PBXNativeTarget "tencentOCRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D4ED5A2179D3FC004BD74B /* Debug */,
+				81D4ED5B2179D3FC004BD74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81D4ED232179D3FA004BD74B /* Project object */;
+}
